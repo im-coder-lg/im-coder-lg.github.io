@@ -5,8 +5,8 @@ calendly:
 dribbble:
 facebook:
 flickr:
-github: sylhare
-gitlab:
+github: coder-lg
+gitlab: coder-lg
 google-scholar:   # e.g. "WXAAOb0AAAAJ"
 instagram:
 hacker-news:
@@ -15,7 +15,7 @@ linkedin:
 mail:             # e.g. "sam@mail.com"
 map:              # e.g. "34.0886/-118.3191"
 mastodon:         # e.g. "fostodon.org/@sam"
-matrix:           # e.g. "@sam:matrix.org"
+matrix: "@coder-lg:matrix.org"          # e.g. "@sam:matrix.org"
 medium:
 patreon:
 phone:            # e.g. "+11111111111"

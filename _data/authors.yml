@@ -1,20 +1,4 @@
-rohanchandra: # author-id
-  name: "Rohan Chandra"
-  avatar: "https://avatars2.githubusercontent.com/u/816965?s=460&v=4"
-  url: "https://github.com/rohanchandra"
-sylhare:
-  name: Sylhare
-  avatar: "https://avatars3.githubusercontent.com/u/20642750?s=460&v=4"
-  url: "https://github.com/sylhare"
-mmistakes:
-  name: "Michael Rose"
-  avatar: "https://avatars3.githubusercontent.com/u/1376749?s=460&v=4"
-  url: "https://github.com/mmistakes"
-mhagnumdw:
-  name: Mhagnumdw
-  avatar: "https://avatars2.githubusercontent.com/u/17688846?s=460&v=4"
-  url:
-unknown:
-  name: Unknown
-  avatar:
-  url:
+coder-lg:
+  name: "LG"
+  avatar: "https://avatars.githubusercontent.com/u/76845820?s=400&u=6abe8f7803196516562cdf0af76fe798eae8c590&v=4"
+  url: "https://github.com/coder-lg"
