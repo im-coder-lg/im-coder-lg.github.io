@@ -1,15 +1,15 @@
 # SITE CONFIGURATION
-baseurl: "/Type-on-Strap"
-url: "https://sylhare.github.io"
+baseurl: "/my-blog"
+url: "https://coder-lg.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
-title: Type on Strap                                    # site's title
-description: "A website with blog posts and pages"      # used by search engines
+title: LG's blog                              # site's title
+description: "welcome to my blog"      # used by search engines
 avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 
 # Header and footer text
-header_text: Change <code>header_text</code> in <code>_config.yml</code>  # Change Blog header text
+header_text: my blog.  # Change Blog header text
 header_feature_image: assets/img/pexels/triangular.jpeg
 footer_text: >
   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
@@ -33,8 +33,10 @@ comments:
   disqus_shortname:                                     # Your discus shortname for comments
   cusdis_app_id:                                        # Your cusdis data-app-id
   utterances:                                           # Enable by filling below information. For more info, go to https://utteranc.es
-    repo:                                               # your public comments repository (e.g. owner/repo)
-    issue-term:                                         # Issue term (e.g. "comment" consider issues with this word in the title as comments)
+    repo: coder-lg/my-blog-comments                                              # your public comments repository (e.g. owner/repo)
+    issue-term: title                                        # Issue term (e.g. "comment" consider issues with this word in the title as comments)
+    theme: github-dark
+    label: mainblogcomment
 
 # PAGINATION
 paginate: 5
