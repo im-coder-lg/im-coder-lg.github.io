@@ -32,6 +32,9 @@ layout: default
 <!-- Cusdis -->
 {% if site.cusdis_app_id %}{% include social/cusdis.html %}{% endif %}
 
+<!--Utterances-->
+{% if site.comments.utterances.repo and site.comments.utterances.issue-term and site.comments.utterances.theme %} {% include social/utterances.html %} {% endif %}
+
 <!-- Disqus -->
 {% if site.disqus_shortname or site.theme_settings.disqus_shortname %}
 {% include social/disqus.html %}{% endif %}
