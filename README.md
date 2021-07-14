@@ -1,3 +1,8 @@
+# checks
+[![Issue Labeler](https://github.com/coder-lg/my-blog/actions/workflows/labeler.yml/badge.svg)](https://github.com/coder-lg/my-blog/actions/workflows/labeler.yml)
+[![Issue comments and project triage adding](https://github.com/coder-lg/my-blog/actions/workflows/issue-and-project.yml/badge.svg)](https://github.com/coder-lg/my-blog/actions/workflows/issue-and-project.yml)
+[![Jekyll site CI](https://github.com/coder-lg/my-blog/actions/workflows/jekyll.yml/badge.svg)](https://github.com/coder-lg/my-blog/actions/workflows/jekyll.yml)
+[![Label approved pull requests](https://github.com/coder-lg/my-blog/actions/workflows/approval-workflow.yml/badge.svg)](https://github.com/coder-lg/my-blog/actions/workflows/approval-workflow.yml)
 # credits to sylhare
 # Type on Strap 🎨
 
