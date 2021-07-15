@@ -39,6 +39,20 @@ layout: default
 
 <!--Utterances-->
 {% if site.comments.utterances.repo and site.comments.utterances.issue-term and site.comments.utterances.theme %} {% include social/utterances.html %} {% endif %}
+<h3 align=center>Hey, LG here. If you wanna make a discussion, comment here. It can be used continuously too. Just, don't flood it.</h3>
+<!--Giscus-->
+<script src="https://giscus.app/client.js"
+        data-repo="coder-lg/my-blog-comments"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkzNjgxMDcwOTk="
+        data-category="General"
+        data-category-id="DIC_kwDOFfDeW84B-UXd"
+        data-mapping="title"
+        data-reactions-enabled="1"
+        data-emit-metadata="1"
+        data-theme="dark"
+        crossorigin="anonymous"
+        async>
+</script>
 
 <!-- Cusdis -->
 {% if site.comments.cusdis_app_id or site.cusdis_app_id %}{% include social/cusdis.html %}{% endif %}
