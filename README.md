@@ -3,6 +3,7 @@
 [![Issue comments and project triage adding](https://github.com/coder-lg/my-blog/actions/workflows/issue-and-project.yml/badge.svg)](https://github.com/coder-lg/my-blog/actions/workflows/issue-and-project.yml)
 [![Jekyll site CI](https://github.com/coder-lg/my-blog/actions/workflows/jekyll.yml/badge.svg)](https://github.com/coder-lg/my-blog/actions/workflows/jekyll.yml)
 [![Label approved pull requests](https://github.com/coder-lg/my-blog/actions/workflows/approval-workflow.yml/badge.svg)](https://github.com/coder-lg/my-blog/actions/workflows/approval-workflow.yml)
+I do know that not many uploads come here, but this will be updated too. I ***`love`*** this theme becuase of it's versatility.This will be my official `keep-you-updated` blog :smile:
 # credits to sylhare
 # Type on Strap 🎨
 
