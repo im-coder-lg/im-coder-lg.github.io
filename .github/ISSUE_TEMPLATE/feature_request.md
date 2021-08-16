@@ -3,7 +3,7 @@ name: Feature request
 about: Suggest an idea for this project
 title: ''
 labels: enhancement
-assignees: 'coder-lg'
+assignees: 'im-coder-lg'
 
 ---
 
