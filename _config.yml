@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-baseurl: "/my-blog"
-url: "https://coder-lg.github.io"
+baseurl: ""
+url: "https://im-coder-lg.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
 title: LG's blog                              # site's title
