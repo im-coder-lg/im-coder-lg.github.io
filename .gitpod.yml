@@ -1,0 +1,10 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - name: Server
+    before: gem install jekyll bundle
+    init: bundle install
+    command: |
+          bundle install
+          bundle exec jekyll serve
