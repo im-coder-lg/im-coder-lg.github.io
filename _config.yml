@@ -4,7 +4,7 @@ url: "https://im-coder-lg.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
 title: LG's blog                              # site's title
-description: "welcome to my blog"      # used by search engines
+description: "<code>hello there</code>"      # used by search engines
 avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 
@@ -26,14 +26,14 @@ katex: true                                             # Enable if using math m
 mermaid: true                                           # Enable mermaid-js for sequence and diagrams
 google_analytics:                                       # Tracking ID, e.g. "UA-000000-01"
 cookie_consent: true                                   # To respect the usage of cookies
-color_theme: dark                                       # auto, dark or light
+color_theme: auto                                       # auto, dark or light
 
 # Comments
 comments:
   disqus_shortname:                                     # Your discus shortname for comments
-  cusdis_app_id: a18e5bf1-59c8-49e0-aa2b-155600619e27                                       # Your cusdis data-app-id
+  cusdis_app_id:                                        # Your cusdis data-app-id
   utterances:                                           # Enable by filling below information. For more info, go to https://utteranc.es
-    repo: coder-lg/my-blog-comments                                              # your public comments repository (e.g. owner/repo)
+    repo: im-coder-lg/my-blog-comments                                              # your public comments repository (e.g. owner/repo)
     issue-term: title                                        # Issue term (e.g. "comment" consider issues with this word in the title as comments)
     theme: github-dark
     label: mainblogcomment
