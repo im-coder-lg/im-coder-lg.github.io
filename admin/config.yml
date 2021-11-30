@@ -1,0 +1,64 @@
+# config.yml
+
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+media_folder: 'assets/uploads'
+collections:
+  - name: 'blog'
+    label: 'Blog'
+    folder: '_posts/'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Color', name: 'color', widget: 'string' }
+      - { label: 'Author', name: 'author', widget: 'string', default: 'im-coder-lg' }
+      - { label: 'TOC', name: 'toc', widget: 'string', default: 'true' }
+      - { label: 'Excerpt Separator', name: 'excerpt-separator', widget: 'hidden', default: '<!--more-->' }
+      - { label: 'Tags', name: 'tags', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+
+  - name: 'authors'
+    label: 'Authors'
+    files:
+      - label: 'Author'
+        name: 'authors'
+        file: '_data/authors.yml'
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'author' }
+      - { label: 'Short Name', name: 'name', widget: 'string' }
+      - { label: 'Display Name', name: 'display_name', widget: 'string' }
+      - { label: 'Position', name: 'position', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'pages'
+    label: 'Pages'
+    editor:
+      preview: false
+    files:
+      - label: 'About Page'
+        name: 'about'
+        file: 'pages/about.md'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'hidden', default: 'about' }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'about' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'Pages'
+    label: 'pages'
+    editor:
+      preview: false
+    folder: 'pages'
+      fields:
+        - label: 'Navigation Items'
+          name: 'items'
+          widget: 'list'
+          fields:
+            - { label: Name, name: name, widget: string }
+            - { label: Link, name: link, widget: string }
