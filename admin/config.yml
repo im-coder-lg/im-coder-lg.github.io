@@ -38,8 +38,8 @@ collections:
       - { label: 'Display Name', name: 'display_name', widget: 'string' }
       - { label: 'Position', name: 'position', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'pages'
-    label: 'Pages'
+  - name: 'About Page'
+    label: 'about'
     editor:
       preview: false
     files:
