@@ -13,3 +13,10 @@
           - { label: Name, name: name, widget: string }
           - { label: Link, name: link, widget: string }
 ```
+```yaml
+  
+```
+new:
+```yaml
+
+```
