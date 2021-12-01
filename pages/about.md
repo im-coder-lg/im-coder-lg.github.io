@@ -7,4 +7,4 @@ tags:
   - Page
 ---
 
-This is my main blog. Here, I will post monthly articles on anything I deem interesting. If you want more ideas on technology, be sure to go [`here`](https://coder-lg.github.io/tech) and read them. That blog was started yesterday btw.
+This is my main blog. Here, I will post monthly articles on anything I deem interesting.
