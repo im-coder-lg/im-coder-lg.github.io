@@ -7,9 +7,9 @@
   // Workspace default new file
   "workbench.startupEditor": "welcomePage",
   // Customize editor 
-  "editor.tabSize": 2,
-  "editor.fontSize": 17,
-  "editor.lineHeight": 25,
+  "editor.tabSize": 1,
+  "editor.fontSize": 12,
+  "editor.lineHeight": 22,
   // "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   // Auto remove
@@ -48,7 +48,7 @@
   //   ".prettierrc": "json"
   // },
 
-  "window.zoomLevel": 2,
+  "window.zoomLevel": 1,
   // Emmet → web dev snippets
   "emmet.syntaxProfiles": { "javascript": "jsx" },
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
